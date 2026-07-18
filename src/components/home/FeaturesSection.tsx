@@ -1,27 +1,27 @@
 const features = [
   {
-    number: '01',
-    title: 'Immersive World',
+    number: "01",
+    title: "Immersive World",
     description:
-      'Explore a cinematic world powered by Unreal Engine, filled with detailed environments, hidden locations, and unforgettable encounters.',
+      "Explore a cinematic world powered by Unreal Engine, filled with detailed environments, hidden locations, and unforgettable encounters.",
   },
   {
-    number: '02',
-    title: 'Competitive Rankings',
+    number: "02",
+    title: "Competitive Rankings",
     description:
-      'Compete against players, improve your performance, earn experience points, and climb the global leaderboard.',
+      "Compete against players, improve your performance, earn experience points, and climb the global leaderboard.",
   },
   {
-    number: '03',
-    title: 'Epic Challenges',
+    number: "03",
+    title: "Epic Challenges",
     description:
-      'Complete challenging missions, defeat powerful enemies, and unlock exclusive achievements as you progress.',
+      "Complete challenging missions, defeat powerful enemies, and unlock exclusive achievements as you progress.",
   },
   {
-    number: '04',
-    title: 'Player Progression',
+    number: "04",
+    title: "Player Progression",
     description:
-      'Build your player profile, increase your level, track your statistics, and showcase your accomplishments.',
+      "Build your player profile, increase your level, track your statistics, and showcase your accomplishments.",
   },
 ];
 
@@ -67,9 +67,7 @@ export default function FeaturesSection() {
                   {feature.number}
                 </div>
 
-                <h3 className="mt-8 text-2xl font-bold">
-                  {feature.title}
-                </h3>
+                <h3 className="mt-8 text-2xl font-bold">{feature.title}</h3>
 
                 <p className="mt-4 max-w-lg leading-7 text-slate-400">
                   {feature.description}
